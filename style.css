@@ -1,45 +1,36 @@
 body {
     background-color: rgba(63, 0, 67, 0.899);
 }
+
 img {
     height: 500px;
     width: 500px;
     border-radius: 500px;
 }
+
 .imagen {
     height: 500px;
     width: 500px;
     margin: auto;
 }
-p {
+
+h1, h2, h3, p {
     text-align: center;
     font-family: arial;
     color: white;
 }
-h1 {
-    text-align: center;
-    font-family: arial;
-    color: white;
-}
-h2 {
-    text-align: center;
-    font-family: arial;
-    color: white;
-}
-h3 {
-    text-align: center;
-    font-family: arial;
-    color: white;
-}
+
 .redes {
     text-align: center;
     margin-top: 80px;
     font-family: arial;
     color: white;
 }
+
 marker {
     marker: initial;
 }
+
 ul {
     list-style: circle;
 }
@@ -51,6 +42,7 @@ ul {
     font-family: arial;
     color: white;
 }
+
 .lista2 {
     width: fit-content;
     height: fit-content;
@@ -58,6 +50,7 @@ ul {
     font-family: arial;
     color: white;
 }
+
 table {
     background-color: #53c7fb;
     width: 80%;
@@ -67,19 +60,67 @@ table {
     text-align: center;
     border-collapse: collapse;
     margin: auto;
+    max-width: 1000px;
 }
+
 th, td {
     border: solid 1px rgb(0, 0, 134);
     padding: 0;
     width: fit-content;
-    height: fit-content;
-    
+    height: fit-content; 
 }
+
 thead {
     background-color: blue;
     border-bottom: solid 5px rgb(0, 0, 134);
     color: rgba(255, 254, 254, 0.91);
 }
+
 tbody {
     color: rgba(0, 0, 0, 0.484);
 }
+
+fieldset {
+    border: none;
+    background-color: rgb(116 116 243);
+    border-radius: 50px 50px 20px 20px;
+    padding: 30px 20px;
+    width: fit-content;
+    margin: 50px auto 10px auto;
+    color: white;
+  }
+
+  input:not([type="submit"], [type="reset"]),
+  textarea {
+    display: block;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 12px;
+    color: blue;
+    margin-bottom: 20px;
+    
+    &:focus-visible {
+      outline: none;
+    box-shadow: 4px 4px 3px 6px rgba(0, 0, 255, 0.2);
+    }
+  }
+
+  textarea {
+    padding: 10px 8px;
+  }
+
+  .contacto {
+    margin: 5px;
+  }
+
+  input[type="submit"], input[type="reset"], select {
+    border-radius: 10px;
+    &:focus-visible {
+        outline: none;
+      box-shadow: 4px 4px 3px 6px rgba(0, 0, 255, 0.2);
+      }
+      background-color: blue;
+     color: white;
+  }
